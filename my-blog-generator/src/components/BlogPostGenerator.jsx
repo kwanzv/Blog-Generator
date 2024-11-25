@@ -162,18 +162,6 @@ const BlogPostGenerator = () => {
           </div>
           
           <div className="space-y-2">
-            <label className="block font-medium">Subtitle</label>
-            <input
-              type="text"
-              name="subtitle"
-              value={formData.subtitle}
-              onChange={handleInputChange}
-              className="w-full p-2 border rounded"
-              placeholder="Enter subtitle"
-            />
-          </div>
-          
-          <div className="space-y-2">
             <label className="block font-medium">Main Image</label>
             <input
               type="file"
